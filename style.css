@@ -2,4 +2,37 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+/*NAVIGATION STYLES*/
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #415f23d2;
 }
