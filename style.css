@@ -33,6 +33,41 @@ body {
     text-decoration: none;
 }
 
-a:hover {
-    color: #415f23d2;
+/*HERO SECTION STYLES*/
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 20px;
+}
+
+.col-1, .col-2 {
+    width: 50%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 0px solid #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+}
+
+.col-2 {
+    background-color: #858585;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
