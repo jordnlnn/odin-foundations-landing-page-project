@@ -43,6 +43,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    align-items: center;
     padding: 75px 55px;
 }
 
@@ -53,6 +54,11 @@ body {
     gap: 45px;
 }
 
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .col-1, .col-2 {
     width: 50%;
 }
@@ -70,27 +76,31 @@ h1 {
 }
 
 .hero-section button {
-    background-color: #3882F6;
+    background-color: #33CCCC;
     padding: 8px 16px;
     border-radius: 5px;
     border: 0px solid #3882F6;
-    color: #E5E7EB;
+    color: #1F2937;
     font-weight: 800;
+    align-self: start;
 }
 
 .col-2 {
-    background-color: #858585;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.hero-image {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 70%;
 }
 
 /*INFO SECTION STYLES*/
 .info-section {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    padding: 55px 0px;
+    padding: 55px;
 }
 
 .info-section h2 {
@@ -102,23 +112,29 @@ h1 {
 
 .blurb-container {
     display: flex;
-    gap: 30px;
+    align-items: stretch;
+    justify-content: space-evenly;
     max-width: 1000px;
     margin: auto;
-    padding: 0 55px;
 }
 
 .blurb {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .blurb-image {
-    border: 3px solid #3882F6;
-    height: 150px;
     width: 100%;
-    border-radius: 5px;
+    height: auto;
+}
+
+.image {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 150px;
+    margin: 0;
 }
 
 .blurb p {
@@ -130,6 +146,14 @@ h1 {
 .quote-section {
     background-color: #E5E7EB;
     padding: 75px 55px;
+}
+
+.quote-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 0 0 45px 0;
+    text-align: center;
 }
 
 .quote-text {
@@ -155,7 +179,7 @@ h1 {
 }
 
 .modal {
-    background-color: #3882F6;
+    background-color: #33CCCC;
     border-radius: 5px;
     padding: 32px 80px;
     display: flex;
@@ -167,16 +191,17 @@ h1 {
 }
 
 .modal-text {
-    color: #E5E7EB;
+    color: #1F2937;
 }
 
 .modal-text h3 {
     font-weight: 800;
+    font-size: 22px;
 }
 
 .modal button {
-    background-color: #3882F6;
-    border: 3px solid #E5E7EB;
+    background-color: #1F2937;
+    border: none;
     border-radius: 5px;
     padding: 10px 20px;
     color: #E5E7EB;
