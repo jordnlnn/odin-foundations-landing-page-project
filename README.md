@@ -1,13 +1,40 @@
-# odin-foundations-landing-page-project
+# AI Task Manager - The Odin Project
 
-In this project, I will be demonstrating all skills learned regarding HTML & CSS in The Odin Project's Foundation course.
+## Overview
 
-I will be re-creating an entire web page from a design provided.
+This project is a demonstration of the **HTML & CSS** skills I have learned in [The Odin Project](https://www.theodinproject.com/) Foundation course.
 
-I then replaced the content of the page.
+I have re-created a full landing page based on a provided design and then replaced the content to fit an AI-powered task manager concept.
 
-<a href="https://www.flaticon.com/free-animated-icons/artificial-intelligence" title="artificial intelligence animated icons">Artificial intelligence animated icons created by Freepik - Flaticon</a>
+---
 
-<a href="https://www.flaticon.com/free-animated-icons/artificial-intelligence" title="artificial intelligence animated icons">Artificial intelligence animated icons created by Freepik - Flaticon</a>
+## Features
 
-<a href="https://www.flaticon.com/free-animated-icons/ai" title="ai animated icons">Ai animated icons created by Freepik - Flaticon</a>
+✅ Clean and modern UI with CSS styling  
+✅ Re-created from a given design template  
+✅ Attribution for free assets used
+
+---
+
+## Live Demo
+
+🔗 **[View the Live Project]()**
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox)
+
+---
+
+## Credits & Attribution
+
+Icons used in this project were sourced from [Freepik - Flaticon](https://www.flaticon.com/) and require attribution:
+
+- [Artificial Intelligence Animated Icons](https://www.flaticon.com/free-animated-icons/artificial-intelligence) by **Freepik - Flaticon**
+- [AI Animated Icons](https://www.flaticon.com/free-animated-icons/ai) by **Freepik - Flaticon**
+- [Technology Animated Icons](https://www.flaticon.com/free-animated-icons/technology) by **Freepik - Flaticon**
+
+---

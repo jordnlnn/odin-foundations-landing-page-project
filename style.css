@@ -215,5 +215,10 @@ h1 {
     background-color: #1F2937;
     text-align: center;
     color: #E5E7EB;
-    padding: 32px 0;
+    padding: 28px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: inherit;
 }
